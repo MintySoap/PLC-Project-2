@@ -18,7 +18,7 @@ The binary relation r1 above can be represented by the function that maps (1,5) 
 Similarly, binary relation r2 can be represented by the function that maps (1,2) to True, (2,3) to True, (3,4) to True, (4,5) to True, and every other pair to False.
 
 Test cases:
-r1 = add (1,2) (add (2,3) (add (3,4) emptyBinaryRelation))
+r1 = add (1,2) (add (2,3) (add (3,4) emptyBinaryRelation)) \n
 putStrLn (toString r1)
 r2 = addMultiple [(1,2),(2,3),(3,4),(4,5)] emptyBinaryRelation
 putStrLn (toString r2)
